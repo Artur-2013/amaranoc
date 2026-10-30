@@ -19,15 +19,21 @@ a {
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #2f7d4f;
+  height: 48px;
+  overflow: hidden;
+}
+.logo img {
+  height: 500%;
+  width: auto;
+  max-width: none;
+  object-fit: contain;
+  display: block;
 }
 
 .nav {
   display: flex;
-  gap: 56px;
+  gap: 30px;
+  margin-right: 150px;
 }
 .nav a {
   padding-bottom: 4px;
@@ -44,7 +50,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 24px;
+  gap: 16px;
 }
 
 .icon-btn {
