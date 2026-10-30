@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+
+const LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLClJXKqYmohtA_JEZepgZ-DmyNPUI8tYW-PvzOW1zT1mohrYKE1yPMMNe&s=10";
+
 const NAV = ["Գլխավոր", "Զեղչեր", "Ծառայություններ", "Մեր մասին"];
 
 const iconProps = {
@@ -12,22 +15,6 @@ const iconProps = {
   strokeLinecap: "round",
   strokeLinejoin: "round",
 };
-
-function Logo() {
-  return (
-    <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-      <path
-        d="M6 19 20 7l14 12"
-        stroke="#f39a3d"
-        strokeWidth="2.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <rect x="11" y="19" width="18" height="14" rx="2" fill="#2f7d4f" />
-      <rect x="17" y="24" width="6" height="9" fill="#fff" />
-    </svg>
-  );
-}
 
 function GlobeIcon() {
   return (
@@ -63,8 +50,7 @@ export default function Header() {
   return (
     <header className="header">
       <a className="logo" href="#top">
-        <Logo />
-        <span>Ամառանոցներ</span>
+        <img src={LOGO_URL} alt="Լոգո" />
       </a>
 
       <nav className="nav">
