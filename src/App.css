@@ -86,3 +86,134 @@ a {
 .search:focus-within {
   border-color: #f39a3d;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  padding: 16px 32px 48px;
+  align-items: start;
+}
+
+.filters {
+  border: 1px solid #dfe3e6;
+  border-radius: 20px;
+  padding: 8px 20px;
+  background: #fff;
+  margin-top: 50px;
+}
+.f-section {
+  padding: 16px 0;
+  border-bottom: 1px solid #eef1f3;
+}
+.f-section:last-child {
+  border-bottom: 0;
+}
+.f-title {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.checks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.checks.scroll {
+  max-height: 170px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+.checks label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+.checks em {
+  font-style: normal;
+  color: #6b776f;
+}
+
+.currency {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.round {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #cfd6d2;
+  background: #fff;
+  cursor: pointer;
+}
+.round.active {
+  background: #131a2b;
+  color: #fff;
+  border-color: #131a2b;
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.range input {
+  width: 100%;
+  min-width: 0;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #cfd6d2;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.counter button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #cfd6d2;
+  background: #fff;
+  cursor: pointer;
+}
+.counter button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.counter input {
+  width: 56px;
+  height: 36px;
+  text-align: center;
+  border: 1px solid #cfd6d2;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.chip {
+  padding: 10px 18px;
+  border: 1px solid #cfd6d2;
+  border-radius: 999px;
+  background: #fff;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.chip.active {
+  background: #131a2b;
+  border-color: #131a2b;
+  color: #fff;
+}
