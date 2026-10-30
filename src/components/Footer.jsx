@@ -42,11 +42,11 @@ const PinIcon = () => (
 const FOOTER_IMG = "https://amaranoc.am/_next/image?url=%2Fimages%2Ffooter%2Ffooter-background.png&w=1920&q=75";
 
 const CONTACTS = [
-  { icon: <PhoneIcon />, text: "000-000-000" },
-  { icon: <MailIcon />, text: "info@example.com" },
-  { icon: <InstagramIcon />, text: "summerhouses" },
-  { icon: <FacebookIcon />, text: "summerhouses" },
-  { icon: <PinIcon />, text: "Օրինակելի փողոց 1" },
+  { icon: <PhoneIcon />, text: "041-611-611" },
+  { icon: <MailIcon />, text: "amaranoc.info@gmail.com" },
+  { icon: <InstagramIcon />, text: "amaranoc.am" },
+  { icon: <FacebookIcon />, text: "amaranoc.am" },
+  { icon: <PinIcon />, text: "թումանյան 5" },
 ];
 
 export default function Footer() {
@@ -66,11 +66,11 @@ export default function Footer() {
       <p className="footer-privacy">Գաղտնիության քաղաքականություն</p>
 
       <p className="footer-companies">
-        <span>Ամառանոցներ ՍՊԸ</span>
+              <span>Ամառանոց ՍՊԸ</span>
         <i />
-        <span>Summer Houses LLC</span>
+        <span>Amaranoc LLC</span>
         <i />
-        <span>Летние дома ООО</span>
+        <span>Амараноц ООО</span>
       </p>
 
       <img className="footer-img" src={FOOTER_IMG} alt="" />
