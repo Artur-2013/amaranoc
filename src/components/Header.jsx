@@ -3,7 +3,12 @@ import { NavLink, Link } from "react-router-dom";
 
 const LOGO_URL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLClJXKqYmohtA_JEZepgZ-DmyNPUI8tYW-PvzOW1zT1mohrYKE1yPMMNe&s=10";
 
-const NAV = ["Գլխավոր", "Զեղչեր", "Ծառայություններ", "Մեր մասին"];
+const NAV = [
+  { label: "Գլխավոր", to: "/" },
+  { label: "Զեղչեր", to: "/second" },
+  { label: "Ծառայություններ", to: "/services" },
+  { label: "Մեր մասին", to: "/about" },
+];
 
 const iconProps = {
   width: 24,
@@ -55,15 +60,15 @@ export default function Header() {
 
       <nav className="nav">
         {NAV.map((item) => (
-          <a
-            key={item}
-            href="#top"
-            className={item === active ? "active" : ""}
-            onClick={() => setActive(item)}
-          >
-            {item}
-          </a>
-        ))}
+  <NavLink
+    key={item.to}
+    to={item.to}
+    end={item.to === "/"}
+    className={({ isActive }) => (isActive ? "active" : "")}
+  >
+    {item.label}
+  </NavLink>
+))}
       </nav>
 
       <div className="header-right">
