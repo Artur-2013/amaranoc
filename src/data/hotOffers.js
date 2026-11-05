@@ -5,7 +5,7 @@ export const hotOffers = [
     guests: 10,
     rating: 5,
     price: 35000,
-    image: "https://picsum.photos/seed/hot-1/800/700",
+    image: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1778660911458--0.6797732316776122image.webp&w=828&q=75",
   },
   {
     id: 102,
@@ -13,7 +13,7 @@ export const hotOffers = [
     guests: 6,
     rating: null,
     price: 45000,
-    image: "https://picsum.photos/seed/hot-2/800/700",
+    image: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1759149473223--0.33907271602966693image.webp&w=3840&q=75",
   },
   {
     id: 103,
@@ -21,7 +21,7 @@ export const hotOffers = [
     guests: 25,
     rating: 5,
     price: 75000,
-    image: "https://picsum.photos/seed/hot-3/800/700",
+    image: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1764083598180--0.6582491079586374image.webp&w=3840&q=75",
   },
   {
     id: 104,
@@ -29,7 +29,7 @@ export const hotOffers = [
     guests: 18,
     rating: 5,
     price: 120000,
-    image: "https://picsum.photos/seed/hot-4/800/700",
+    image: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1762686772282--0.7753343924665224image.webp&w=3840&q=75",
   },
   {
     id: 105,
@@ -37,7 +37,7 @@ export const hotOffers = [
     guests: 40,
     rating: null,
     price: 250000,
-    image: "https://picsum.photos/seed/hot-5/800/700",
+    image: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1758095203425--0.034694092059661896image.webp&w=3840&q=75",
   },
   {
     id: 106,
@@ -45,6 +45,6 @@ export const hotOffers = [
     guests: 60,
     rating: 5,
     price: 380000,
-    image: "https://picsum.photos/seed/hot-6/800/700",
+    image: "https://amaranoc.am/_next/image?url=https%3A%2F%2Fapi.amaranoc.am%2Fcompressed_images%2Fcompressed_1763196873802--0.32875657677659165image.webp&w=3840&q=75",
   },
 ];
