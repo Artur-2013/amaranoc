@@ -1,4 +1,4 @@
-const BG = "https://picsum.photos/seed/cabin-discount/900/600";
+const BG = "https://amaranoc.am/images/raffle/special-discounts-image.jpg";
 
 export const discounts = [
   {
