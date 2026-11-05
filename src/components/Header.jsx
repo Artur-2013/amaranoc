@@ -9,7 +9,6 @@ const NAV = [
   { label: "Ծառայություններ", to: "/services" },
   { label: "Մեր մասին", to: "/about" },
 ];
-
 const iconProps = {
   width: 24,
   height: 24,
