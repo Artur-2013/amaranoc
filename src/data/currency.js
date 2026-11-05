@@ -4,3 +4,4 @@ export const CURRENCIES = [
   { symbol: "€", rate: 1 / 430 },
   { symbol: "₽", rate: 1 / 4.5 },
 ];
+
