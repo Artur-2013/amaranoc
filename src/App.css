@@ -728,3 +728,169 @@ a {
     font-size: 17px;
   }
 }
+
+.gift {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 32px;
+  margin-top: 80px;
+}
+.gift-info {
+  padding: 56px 56px 64px;
+  border-radius: 28px;
+  background: #fafafa;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+.gift-info h2 {
+  margin: 0;
+  font-size: 44px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: #131a2b;
+}
+.gift-info h2 span {
+  color: #f39a3d;
+}
+.gift-info hr {
+  margin: 28px 0;
+  border: 0;
+  border-top: 1px solid #f39a3d;
+}
+.gift-info p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #1f2a24;
+}
+
+.gift-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 40px;
+  border-radius: 28px;
+  background: linear-gradient(110deg, #f0a04b 0%, #e58a43 50%, #d4662f 100%);
+  color: #fff;
+}
+.gift-brand {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.gift-amounts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: 100%;
+  max-width: 540px;
+  margin: 48px 0 40px;
+}
+.gift-amounts button {
+  height: 56px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  background: transparent;
+  color: #fff;
+  font: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.gift-amounts button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.gift-amounts button.active {
+  background: #fff;
+  color: #d4662f;
+}
+.gift-submit {
+  height: 56px;
+  padding: 0 40px;
+  border: 0;
+  border-radius: 999px;
+  background: #f5a352;
+  color: #fff;
+  font: inherit;
+  font-size: 18px;
+  cursor: pointer;
+}
+.gift-submit:hover {
+  background: #fff;
+  color: #d4662f;
+}
+.gift-submit:disabled {
+  opacity: 0.6;
+  cursor: default;
+  background: #f5a352;
+  color: #fff;
+}
+.gift-ok {
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .gift {
+    grid-template-columns: 1fr;
+    margin-top: 56px;
+  }
+  .gift-info {
+    padding: 36px 32px 40px;
+  }
+  .gift-info h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .gift {
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .gift-info {
+    padding: 28px 20px 32px;
+    border-radius: 20px;
+  }
+  .gift-info h2 {
+    font-size: 24px;
+  }
+  .gift-info p {
+    font-size: 16px;
+  }
+  .gift-order {
+    padding: 32px 16px;
+    border-radius: 20px;
+  }
+  .gift-brand {
+    font-size: 28px;
+  }
+  .gift-amounts {
+    gap: 8px;
+    margin: 32px 0 28px;
+  }
+  .gift-amounts button {
+    height: 48px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 340px) {
+  .gift-info {
+    padding: 22px 14px 26px;
+  }
+  .gift-info h2 {
+    font-size: 20px;
+  }
+  .gift-brand {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  .gift-amounts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gift-amounts button {
+    font-size: 15px;
+  }
+}
