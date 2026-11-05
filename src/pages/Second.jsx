@@ -1,5 +1,6 @@
 import DiscountCard from "../components/DiscountCard.jsx";
 import GiftCard from "../components/GiftCard.jsx";
+import HotOffers from "../components/HotOffers.jsx";
 import { discounts } from "../data/discounts.js";
 
 export default function Second() {
@@ -18,6 +19,7 @@ export default function Second() {
       </div>
 
       <GiftCard />
+      <HotOffers />
     </main>
   );
 }
