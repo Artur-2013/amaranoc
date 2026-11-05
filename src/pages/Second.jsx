@@ -1,4 +1,5 @@
 import DiscountCard from "../components/DiscountCard.jsx";
+import GiftCard from "../components/GiftCard.jsx";
 import { discounts } from "../data/discounts.js";
 
 export default function Second() {
@@ -15,6 +16,8 @@ export default function Second() {
           <DiscountCard key={d.id} item={d} />
         ))}
       </div>
+
+      <GiftCard />
     </main>
   );
 }
