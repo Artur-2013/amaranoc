@@ -51,7 +51,7 @@ function HeartIcon({ filled }) {
   );
 }
 
-export default function OfferCard({ offer }) {
+export default function OfferCard({ offer, currency = "֏", rate = 1 }) {
   const [liked, setLiked] = useState(false);
 
   return (
