@@ -90,7 +90,9 @@ export default function OfferCard({ offer, currency = "֏", rate = 1 }) {
 
         <div className="offer-price">
           <TagIcon />
-          <strong>{offer.price.toLocaleString("en-US")} ֏</strong>
+          <strong>
+  {Math.round(offer.price * rate).toLocaleString("en-US")} {currency}
+</strong>
         </div>
       </div>
     </article>
